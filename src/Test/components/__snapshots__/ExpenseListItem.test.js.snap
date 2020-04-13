@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expense List Render Correctly 1`] = `
+<div>
+  <NavLink
+    activeClassName="active"
+    ariaCurrent="true"
+    to="/edit/undefined"
+  >
+    <h1 />
+  </NavLink>
+  <p>
+     - 
+  </p>
+</div>
+`;
+
+exports[`Expense List Render Correctly 2`] = `
+<div>
+  <NavLink
+    activeClassName="active"
+    ariaCurrent="true"
+    to="/edit/undefined"
+  >
+    <h1 />
+  </NavLink>
+  <p>
+     - 
+  </p>
+</div>
+`;
