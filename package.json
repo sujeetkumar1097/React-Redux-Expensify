@@ -5,9 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --config=jest.config.json",
-    "build": "webpack",
+    "build:dev": "webpack",
+    "build:prod": "webpack -p --env production",
     "build-babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch",
-    "dev-server": "webpack-dev-server"
+    "dev-server": "webpack-dev-server",
+    "server": "live-server public/",
+    "start": "node server/server.js",
+    "heroku": "npm run build:prod"
   },
   "author": "sujeet",
   "license": "ISC",
@@ -21,6 +25,8 @@
     "enzyme": "^3.0.0",
     "enzyme-adapter-react-16": "^1.0.0",
     "enzyme-to-json": "^3.0.1",
+    "express": "^4.17.1",
+    "extract-text-webpack-plugin": "^3.0.0",
     "jest": "^20.0.4",
     "moment": "^2.18.1",
     "node-sass": "^4.5.3",
