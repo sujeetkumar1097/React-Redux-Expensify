@@ -11,7 +11,7 @@
     "dev-server": "webpack-dev-server",
     "server": "live-server public/",
     "start": "node server/server.js",
-    "heroku": "npm run build:prod"
+    "heroku-postbuild": "npm run build:prod"
   },
   "author": "sujeet",
   "license": "ISC",
