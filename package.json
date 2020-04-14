@@ -4,7 +4,8 @@
   "description": "",
   "engines": {
     "node": "12.16.x",
-    "npm": "6.x"
+    "npm": "6.x",
+    "node-gyp":"3.4.x"
   },
   "main": "index.js",
   "scripts": {
