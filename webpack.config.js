@@ -22,13 +22,13 @@ module.exports = (env)=>{
                     use:[
                         {
                             loader:'css-loader',
-                            option:{
+                            options:{
                                 sourceMap:true
                             }
                         },
                         {
                             loader:'sass-loader',
-                            option:{
+                            options:{
                                 sourceMap:true
                             }
                         }

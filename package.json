@@ -2,11 +2,6 @@
   "name": "boilerplate",
   "version": "1.0.0",
   "description": "",
-  "engines": {
-    "node": "12.16.x",
-    "npm": "6.x",
-    "node-gyp": "3.4.x"
-  },
   "main": "index.js",
   "scripts": {
     "test": "jest --config=jest.config.json",
@@ -51,7 +46,7 @@
     "style-loader": "^0.18.2",
     "uuid": "^7.0.3",
     "validator": "^8.0.0",
-    "webpack": "^4.42.1",
-    "webpack-dev-server": "^2.5.1"
+    "webpack": "^3.1.0",
+    "webpack-dev-server": "^2.11.5"
   }
 }
