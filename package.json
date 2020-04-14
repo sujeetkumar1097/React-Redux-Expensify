@@ -2,6 +2,10 @@
   "name": "boilerplate",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": "12.16.x",
+    "npm": "6.x"
+  },
   "main": "index.js",
   "scripts": {
     "test": "jest --config=jest.config.json",
