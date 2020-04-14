@@ -4,13 +4,15 @@ exports[`Expense List Render Correctly 1`] = `
 <div>
   <NavLink
     activeClassName="active"
-    ariaCurrent="true"
+    aria-current="page"
     to="/edit/undefined"
   >
     <h1 />
   </NavLink>
   <p>
-     - 
+    $0.00
+     ----
+    January 1st, 1970
   </p>
 </div>
 `;
@@ -19,13 +21,15 @@ exports[`Expense List Render Correctly 2`] = `
 <div>
   <NavLink
     activeClassName="active"
-    ariaCurrent="true"
+    aria-current="page"
     to="/edit/undefined"
   >
     <h1 />
   </NavLink>
   <p>
-     - 
+    $0.00
+     ----
+    January 1st, 1970
   </p>
 </div>
 `;

@@ -2,7 +2,8 @@
 
 exports[`Not Found Page Render Correctly 1`] = `
 <div>
-  <[object Object] />
-  <[object Object] />
+  <Connect(ExpenseSummary) />
+  <Connect(ExpenseListFilter) />
+  <Connect(ExpenseList) />
 </div>
 `;

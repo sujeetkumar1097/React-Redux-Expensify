@@ -15,6 +15,7 @@
   "author": "sujeet",
   "license": "ISC",
   "dependencies": {
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.1",
     "babel-plugin-transform-class-properties": "^6.24.1",
@@ -28,6 +29,7 @@
     "node-gyp": "^6.1.0",
     "node-sass": "^4.5.3",
     "normalize.css": "^7.0.0",
+    "numeral": "^2.0.6",
     "raf": "^3.3.2",
     "react": "^16.13.1",
     "react-addons-shallow-compare": "^15.6.0",
